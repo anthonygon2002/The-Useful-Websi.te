@@ -1,0 +1,30 @@
+/* Style for title of webpage*/
+
+html {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+
+    order: 2;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 100px;
+}
+
+.button {
+    font-family: :Georgia, 'Times New Roman', Times, serif
+    all: unset;
+    border: solid 2px rgb(255, 255, 255, 0.4);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkblue;
+}

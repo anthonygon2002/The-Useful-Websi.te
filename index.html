@@ -10,18 +10,15 @@
 
 <body>
 
-    <header>
-        <h1>
-            <span>
-                <span>The Useful Websi.te</span>
-            </span>   
-        </h1>
+    <header class="container">
+        <span class>The Useful Websi.te</span>  
+
+        <div class="navigation">
+            <li><span class="navstyle" onclick="window.location.replace('index.html')">Home</span></li>
+            <li><span class="navstyle" onclick="window.location.replace('about.html')">About</span></li> 
+        </div>
     </header>
-
-    <div class="navigation">
-        <li><span class="navstyle" onclick="transitionToPage('index.html')">Home</span></li>
-        <li><span class="navstyle" onclick="transitionToPage('about.html')">About</span></li>
-
-    </div>
+    
+    <a href="index.html"><button type="button" class="button">Click Here For a Useful Action</button></a>
 </body>   
 </html>
